@@ -22,8 +22,8 @@ const dispatch = useDispatch()
       withCredentials: true
      })
    dispatch(setUserData(result.data))
-  }catch(error){
-   console.log(error)
+  } catch (error) {
+   console.error("Google auth failed", error.response ? error.response.data : error)
   }
  }
 

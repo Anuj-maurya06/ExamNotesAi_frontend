@@ -10,7 +10,7 @@ import Pricing from './pages/Pricing'
 import Paymetnsuccess from './pages/Paymetnsuccess'
 import PaymentFailed from './pages/PaymentFailed'
 
- export const serverUrl = "http://localhost:8000"
+ export const serverUrl = "https://examnotesai-backend-aky7.onrender.com"
  
  const App = () => {
 
